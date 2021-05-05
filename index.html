@@ -16,6 +16,7 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        color: white;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -23,12 +24,40 @@
     </style>
   </head>
   <body>
-    Get insights that help your business grow. Discover the benefits of data analytics and make better decisions
-    regarding revenue, customer experience, and overall efficiency. 10k+ companies 314 templates 12m+ queries
-
-    <div class="attribution">
+    <div class="wrapper">
+      <article class="card">
+        <div class="header">
+          <picture>
+            <source srcset="./images/image-header-desktop.jpg" media="(min-width: 992px)" />
+            <img src="./images/image-header-mobile.jpg" alt="Grow your business easily" />
+          </picture>
+        </div>
+        <div class="content">
+          <h1>Get <span>insights</span> that help your business grow.</h1>
+          <p>
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience,
+            and overall efficiency.
+          </p>
+          <div class="lists">
+            <div class="list">
+              <h3>10k+</h3>
+              <h4>companies</h4>
+            </div>
+            <div class="list">
+              <h3>314</h3>
+              <h4>templates</h4>
+            </div>
+            <div class="list">
+              <h3>12M+</h3>
+              <h4>queries</h4>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+    <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
       <a href="#">Your Name Here</a>.
-    </div>
+    </footer>
   </body>
 </html>
